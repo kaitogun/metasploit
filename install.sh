@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 apt update && apt upgrade -y
 apt install toilet && apt install figlet -y
 apt install wget && apt install curl && apt install ruby -y
